@@ -278,3 +278,67 @@ elif st.session_state.show_section == "find":
                             st.write(f"**Expertise:** {expertise}")
                             st.write(f"**Bio:** {bio}")
                             
+# ---- footer ----
+st.markdown(""" 
+<style>
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 40px 20px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.footer-column h4 {
+    color: #FFD700;
+    margin-bottom: 12px;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #6a3fb5;
+    text-decoration: underline;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #ccc;
+}
+</style>
+<div class="footer">
+    <div class="footer-columns">
+        <div class="footer-column">
+            <h4>About MentorMatchAI</h4>
+            <p>MentorMatchAI connects aspiring professionals with verified industry mentors. Learn, grow, and build your career with personalized guidance.</p>
+        </div>
+        <div class="footer-column">
+            <h4>Resources</h4>
+            <p>Discover tips on career growth, AI-powered mentoring, and skill development. Stay informed with our expert advice and curated articles.</p>
+        </div>
+        <div class="footer-column">
+            <h4>Contact</h4>
+            <p>Email: <a href="mailto:rashmitharaka509@gmail.com">rashmitharaka509@gmail.com</a></p>
+            <p>Phone: +94 769 787 029</p>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+st.caption("🚀  Powered by <strong>Supabase</strong> + <strong>Streamlit</strong> & <strong>FastAPI</strong> | 🤖 AI-Enhanced Mentor Matching System | © 2025 MentorMatchAI. All rights reserved.", unsafe_allow_html=True)
