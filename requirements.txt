@@ -1,0 +1,25 @@
+# requirements.txt
+
+# Frontend
+streamlit
+requests
+
+# Backend
+fastapi
+uvicorn
+
+# Database + Auth
+supabase
+
+# Environment variables
+python-dotenv
+
+# AI / ML
+sentence-transformers
+torch
+transformers
+scikit-learn
+numpy
+
+# Utils
+pydantic
