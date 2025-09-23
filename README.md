@@ -56,22 +56,28 @@ MentorMatchAI/
 
 ### 1️⃣ Clone Repository
 git clone https://github.com/rashmitharaka1/MentorMatchAI.git
+
 cd MentorMatchAI
 
 ### 2️⃣ Create Virtual Environment
 python -m venv venv
+
 source venv/bin/activate   # (Linux/Mac)
+
 venv\Scripts\activate      # (Windows)
 
 ### 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
 If no requirements.txt, install manually:
+
 pip install streamlit fastapi uvicorn supabase python-dotenv sentence-transformers requests
 
 ### 4️⃣ Configure Environment Variables
 SUPABASE_URL=your-supabase-url
+
 SUPABASE_KEY=your-supabase-key
+
 API_URL=http://127.0.0.1:8000
 
 ---
